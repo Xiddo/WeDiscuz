@@ -1,0 +1,13 @@
+start tomcat9
+
+0.cd Project
+    npm install -g live-server
+1.cd client
+    pwd
+    live-server --port=8083 // 8080的端口不知道为什么被占
+2.cd server
+    npm start
+    // in case of editing
+    // Ctrl+C to kill the process
+    // npm start to restart it and fresh the page in chrome.
+   

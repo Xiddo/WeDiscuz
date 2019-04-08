@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WeDiscuz - Discussion Board for ML</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">WeDiscuz</h1>
+    </header>
+    <main>
+        <form class="discuz-form">
+            <label for="name">Name</label>
+            <input class="u-full-width" type="text" id="name" name="name">
+            <label for="content">Message</label>
+            <textarea input class="u-full-width" type="text" id="content" name="content"></textarea>
+            <button class="button-primary">Send Your Message</button>
+        </form>
+        <div class="loading">
+            <img src="loading.gif" alt="">
+        </div>
+        <div class="messages">
+
+        </div>
+    </main>
+    <script src="client.js"></script>
+</body>
+</html>
